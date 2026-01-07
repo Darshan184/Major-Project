@@ -1,0 +1,15 @@
+{
+  "name": "microservices-ecommerce",
+  "private": true,
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.35.5"
+  }
+}
